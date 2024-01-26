@@ -19777,7 +19777,12 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
         transform: scale(0.4) !important ; /* Ajuste o valor de scale conforme necessário para dispositivos móveis */
         transform-origin: center bottom; /* Garante que o ponto de origem do zoom seja o centro inferior */
 		margin-right: -32px;
-	    display: block;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .material-parallax img {
+        display: block;
     }
 }
 
