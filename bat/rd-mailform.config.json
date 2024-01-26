@@ -1,0 +1,8 @@
+{
+  "useSmtp": true,
+  "host": null,
+  "port": 465,
+  "username": null,
+  "password": null,
+  "recipientEmail": null
+}
